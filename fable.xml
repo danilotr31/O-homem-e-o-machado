@@ -1,6 +1,122 @@
 <fable>
-	<page>
   
+	<page background="cenario.png">
+    <agent text="certa vez, um lenhador buscando forjar um novo machado, foi até a floresta pedir para que as árvores lhe dessem um cabo." x="20" y="450" />
     
+    <agent text="Árvores, poderiam coneceder um cabo para o meu machado." 
+      x="20" y="250" width="300" on-touch="story2">
+      
+      <story2 text="Ok, nós podemos ajudá-lo" x="200" y="250"  on-touch="story3"/>
+      <story3 text="Pegue o cabo da ávore de carvalho, é uma ávore bem resistente,lembre-se, somente a de carvalho" 
+        x="200" y="250" on-touch="story4"/>
+      <story4 text="ok,combinado..." x="20" y="250" on-touch="story5" />
+      <story5 text="Não sei..estou com um mal pressentimento sobre esse homem." x="200" y="250" />
+      
+    
+    </agent>
+    
+    	<agent img="chao1.png" x="0" y="0" width="100" height="100" />
+    	<agent img="chao2.png" x="100" y="0" width="100" height="100" />
+    	<agent img="chao2.png" x="200" y="0" width="100" height="100" />
+    	<agent img="chao2.png" x="300" y="0" width="100" height="100" />
+    	<agent img="chao2.png" x="400" y="0" width="100" height="100" />
+    	
+    	<agent img="lenhador.png" x="20" y="90" width="70" height="90" />
+    	<agent img="arvorer.png" x="300" y="100" width="100" height="100" />
+    	<agent img="arvore.png" x="400" y="100" width="100" height="100" />
+    	<agent img="arvore.png" x="200" y="100" width="100" height="100" />
+    	<agent img="arbusto.png" x="100" y="100" width="100" height="50" />
+  		<agent img="jump.png" x="460" y="100" width="40" height="40" on-touch="_NEXT_PAGE" />
+  	
+
   </page>
+  
+  <page background="noite.png">
+    <agent text="Naquela noite,o homem planejava algo" color="white" x="20" y="450" />
+    
+    <agent text="....." color="white"
+      x="130" y="200" width="300" on-touch="story2">
+      
+      <story2 text="Ei, voces ouviram isso?" color="white" x="200" y="200"  on-touch="story3"/>
+      <story3 text="Tem algo naquele arbusto." color="white" x="200" y="200" />
+   
+      
+    
+    </agent>
+    
+    	<agent img="chao4.png" x="0" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="100" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="200" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="300" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="400" y="0" width="100" height="100" />
+    	
+    	<agent img="lenhador.png" x="100" y="90" width="90" height="100" />
+    	<agent img="arvore2.png" x="300" y="100" width="100" height="50" />
+    	<agent img="arvore.png" x="400" y="100" width="100" height="100" />
+    	<agent img="arvore.png" x="200" y="100" width="100" height="100" />
+    	<agent img="arbusto2.png" x="100" y="90" width="100" height="80" />
+  		<agent img="jump.png" x="460" y="100" width="40" height="40" on-touch="_NEXT_PAGE"/>
+  	
+
+  </page>
+  
+  <page background="noite.png">
+    <agent text="E no fim, o pior e menos esperado aconteceu,o homem traira a confiança das árvores." 				color="white" x="20" y="450" />
+    
+    <agent text="Olhem, al!. Eu sabia que ele planejava algo de errado" 
+      color="white" x="200" y="180" width="300" on-touch="story2">
+      
+      
+      
+      
+      
+      
+    
+    </agent>
+    
+    	<agent img="chao4.png" x="0" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="100" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="200" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="300" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="400" y="0" width="100" height="100" />
+    	
+    	<agent img="lenhador1.png" x="10" y="90" width="100" height="100" />
+    	<agent img="arvore2.png" x="200" y="100" width="100" height="50" />
+    	<agent img="arvore2.png" x="300" y="100" width="100" height="50" />
+    	<agent img="arvore2.png" x="400" y="100" width="100" height="50" />
+    	<agent img="arbusto2.png" x="100" y="100" width="100" height="50" />
+    	<agent img="jump.png" x="380" y="100" width="40" height="40" on-touch="_NEXT_PAGE"/>
+  		
+  	
+
+  </page>
+  
+  <page background="noite.png">
+    <agent text="Moral da História:Aquele que ajuda o seu inimigo, causa problemas a si próprio." 			color="white" x="20" y="450" />
+    
+      
+  		
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    	<agent img="chao4.png" x="0" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="100" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="200" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="300" y="0" width="100" height="100" />
+    	<agent img="chao3.png" x="400" y="0" width="100" height="100" />
+    	
+    	
+    
+    	<agent img="arbusto2.png" x="100" y="100" width="100" height="50" />
+  		
+  	
+
+  </page>
+  
 </fable>
